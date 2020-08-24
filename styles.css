@@ -13,19 +13,19 @@ body {
   font-size: 1.8rem;
   line-height: 1.5;
   color: #4f4f4f;
-  font-family: "PT Sans", sans-serif;
+  /* font-family: "PT Sans", sans-serif; */
   background-color: #fffafa;
 }
 h1,
 h2,
 h3,
 h4 {
-  letter-spacing: 3px;
-  font-family: ;
+  letter-spacing: 2px;
+  /* font-family: ; */
   text-align: center;
 }
 h1 {
-  font-size: 4rem;
+  font-size: 5rem;
 }
 h2 {
   font-size: 3rem;
@@ -35,15 +35,57 @@ h3 {
 }
 
 header {
+  background: rgb(32, 31, 31);
+  color: white;
+  position: fixed;
+  width: 100%;
+  opacity: 65%;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3%;
+  margin: 0 0 0 0;
+  width: 100%;
+ 
 }
 
 a {
   text-decoration: none;
   letter-spacing: 3px;
-  color: #4f4f4f;
+  color: white;
   font-family: "PT Sans", sans-serif;
 }
 
 a:hover {
-  color: black;
+  color: darkgrey;
+}
+
+#top {
+  height: 55vh;
+  background-image: url("../img/main.jpg");
+  /* margin-top:%; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: lightgrey;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5%;
+}
+
+.box {
+  width: 30%;
+  border: 3px solid #4f4f4f;
+  /* text-align: center; */
+  padding: 3%;
+  background-color: #fff;
 }
