@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.8 rem;
+  line-height: 1.5;
+  color: #4f4f4f;
+  font-family: "Open Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  letter-spacing: 3px;
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+}
+
+section,
+footer {
+  padding: 4% 0;
+}
+
+a {
+  text-decoration: none;
+  letter-spacing: 3px;
+  color: #4f4f4f;
+  font-family: "Open Sans", sans-serif;
+  font-size: 2.2rem;
+}
+
+/* Header Styles */
+
+header nav {
+  width: 100%;
+  top: 0;
+  background-color: rgba(255, 255, 255, 0.8);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5vh;
+  position: fixed;
+  margin-top: 1%;
+}
+
+.links {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.pics {
+  width: 20%;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  color: white;
+  border: 3px solid black;
+  font-style: italic;
+  background-color: lightblue;
+}
+
+h2 {
+  display: flex;
+  text-align: center;
+  color: #d82525;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 2%;
+  flex-direction: column;
+}
+
+p {
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  text-align: center;
+  color: black;
+  background-color: grey;
+  margin: 1.5%;
+}
+
+footer {
+  height: 1vh;
+}
+
+footer nav {
+  margin-bottom: 2%;
+  height: 2.5vh;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about {
+  background-image: url("SFR2-UI/img/background.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: repeat;
+  background-position: center;
+}
