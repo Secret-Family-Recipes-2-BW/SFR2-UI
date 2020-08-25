@@ -88,7 +88,7 @@ h1 {
 h2 {
   display: flex;
   text-align: center;
-  color: #d82525;
+  color: red;
 }
 
 .box {
@@ -128,7 +128,7 @@ footer nav {
 }
 
 .about {
-  background-image: url("SFR2-UI/img/background.jpg");
+  background-image: url("../img/background.jpg");
   background-size: cover;
   background-attachment: fixed;
   background-repeat: repeat;
