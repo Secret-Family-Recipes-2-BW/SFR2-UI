@@ -13,19 +13,18 @@ body {
   font-size: 1.8rem;
   line-height: 1.5;
   color: #4f4f4f;
-  font-family: "PT Sans", sans-serif;
+  font-family: sans-serif;
   background-color: #fffafa;
 }
 h1,
 h2,
 h3,
 h4 {
-  letter-spacing: 3px;
-  font-family: ;
+  letter-spacing: 2px;
   text-align: center;
 }
 h1 {
-  font-size: 4rem;
+  font-size: 5rem;
 }
 h2 {
   font-size: 3rem;
@@ -35,15 +34,199 @@ h3 {
 }
 
 header {
+  background: rgb(32, 31, 31);
+  color: white;
+  position: fixed;
+  width: 100%;
+  opacity: 65%;
+  align-items: center;
+  z-index: 1000;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 3%;
+  width: 95%;
+  align-items: center;
+  height: 60px;
 }
 
 a {
   text-decoration: none;
-  letter-spacing: 3px;
-  color: #4f4f4f;
+  letter-spacing: 2px;
+  color: white;
   font-family: "PT Sans", sans-serif;
 }
 
 a:hover {
-  color: black;
+  color: darkgrey;
+}
+
+.top {
+  height: 45vh;
+  background-image: url("../img/main.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(255, 255, 255, 0.829);
+}
+
+.middle-top {
+  padding: 8%;
+}
+
+.middle-bottom {
+  background-image: url("../img/spoons.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: repeat;
+
+  margin: ;
+}
+
+.middle-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.box {
+  width: 25%;
+  /* border: 1px solid black; */
+  color: white;
+  opacity: 70%;
+  padding: 3%;
+  background-color: rgb(32, 31, 31);
+  border-radius: 0.5rem;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.box:hover {
+  transition: 250ms;
+  opacity: 90%;
+}
+
+.box h2 {
+  padding: 3%;
+}
+
+.box p {
+  margin-top: 5%;
+}
+.bottom {
+  display: flex;
+  text-align: center;
+  width: 90%;
+  padding: 5%;
+}
+.bottom .box2 {
+  text-align: left;
+}
+.background-image {
+  height: 30vh;
+  background-image: url("../img/spoons.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: repeat;
+}
+
+.bottom-bottom p {
+  padding: 3%;
+  margin: 5%;
+}
+
+footer {
+  background: rgb(32, 31, 31);
+  color: white;
+  width: 100%;
+  align-items: center;
+  background-color: black;
+  height: 60px;
+  opacity: 50%;
+}
+
+.contact-top {
+  height: 55vh;
+  background-image: url("../img/ribs.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(255, 255, 255, 0.829);
+}
+
+.contact {
+  display: flex;
+  width: 50%;
+}
+
+.contact-box {
+  display: flexbox;
+}
+
+@media (max-width: 500px) {
+  .container {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  header {
+    background-color: black;
+    height: 160px;
+    position: relative;
+
+    opacity: 70%;
+  }
+
+  nav {
+    flex-direction: column;
+    height: vh;
+    width: 100%;
+    padding: 3%;
+  }
+
+  nav a {
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    letter-spacing: 3px;
+  }
+
+  nav h3 {
+    display: none;
+  }
+  .middle-container {
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+
+  .middle-bottom {
+    margin: 3%;
+  }
+
+  .middle-bottom .box {
+    width: 95%;
+    margin: 3%;
+  }
+
+  .bottom-bottom p {
+    padding: 30%;
+  }
+
+  footer {
+    background-color: black;
+    height: 160px;
+    opacity: 65%;
+  }
 }
