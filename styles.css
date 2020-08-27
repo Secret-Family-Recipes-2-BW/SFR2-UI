@@ -14,7 +14,7 @@ body {
   line-height: 1.5;
   color: #4f4f4f;
   font-family: sans-serif;
-  background-color: #fffafa;
+  background-color: #fff5ee;
 }
 h1,
 h2,
@@ -77,19 +77,24 @@ a:hover {
 }
 
 .top {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
   height: 45vh;
   background-image: url("../img/main.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center top;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   color: rgba(255, 255, 255, 0.829);
 }
 
-.signup {
-  padding: 30px;
+.top h1 {
+  margin-top: 5%;
+  padding-bottom: 5%;
+}
+
+.title {
+  margin-bottom: 65px;
 }
 
 .middle {
@@ -193,7 +198,8 @@ footer:hover {
 }
 
 .contact-top {
-  display: flexbox;
+  display: flex;
+  flex-direction: column;
   height: 100vh;
   background-image: url("../img/ribs.jpg");
   background-size: cover;
@@ -204,7 +210,11 @@ footer:hover {
   justify-content: center;
   color: rgba(255, 255, 255, 0.829);
 }
-
+.contact-top h1 {
+  color: black;
+  opacity: 85%;
+  padding-bottom: 1%;
+}
 .contact {
   display: flex;
   width: 50%;
@@ -264,6 +274,10 @@ input[type="submit"]:hover {
     height: 65vh;
     flex-direction: column;
   }
+  .title {
+    margin-top: 150px;
+  }
+
   header {
     background-color: black;
     height: 160px;
@@ -325,5 +339,10 @@ input[type="submit"]:hover {
 
   .contact {
     width: 90%;
+    margin-top: 150px;
+  }
+
+  .contact-top h1 {
+    display: none;
   }
 }
