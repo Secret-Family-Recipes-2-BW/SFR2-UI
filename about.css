@@ -51,17 +51,6 @@ footer {
 
 /* Header Styles */
 
-/* header nav {
-  width: 100%;
-  top: 0;
-  background-color: rgba(255, 255, 255, 0.8);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 8vh;
-  position: fixed;
-  margin-top: 1%; */
-
 header {
   background: rgb(32, 31, 31);
   color: white;
@@ -107,13 +96,6 @@ a:hover {
   color: darkgrey;
   transform: scale(1.1);
 }
-
-/* .links {
-  width: 100%;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-} */
 
 .pics {
   width: 20%;
@@ -164,12 +146,16 @@ footer {
   height: 1vh;
   text-align: center;
   padding: 1%;
+  align-items: center;
+  justify-content: center;
 }
 
 footer nav {
   margin-bottom: 2%;
   height: 2.5vh;
   text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .copyright {
@@ -185,11 +171,6 @@ footer nav {
   background-repeat: repeat;
   background-position: center;
 }
-
-/* header nav a:hover {
-  text-decoration: underline;
-  color: grey;
-} */
 
 footer nav a:hover {
   text-decoration: underline;
@@ -212,5 +193,9 @@ footer nav a:hover {
 
   footer nav a {
     font-size: 1.5rem;
+  }
+
+  nav h3 {
+    font-size: 1.8rem;
   }
 }
