@@ -58,9 +58,8 @@ header nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 5vh;
+  height: 8vh;
   position: fixed;
-  margin-top: 1%;
 }
 
 .links {
@@ -72,6 +71,7 @@ header nav {
 
 .pics {
   width: 20%;
+  border-radius: 50%;
 }
 
 h1 {
@@ -88,7 +88,9 @@ h1 {
 h2 {
   display: flex;
   text-align: center;
-  color: darkblue;
+  /*color: darkblue;
+  background-color: white;
+  opacity: 90%;*/
 }
 
 .box {
@@ -107,8 +109,8 @@ p {
   align-items: center;
   width: 50%;
   text-align: center;
-  color: black;
-  background-color: white;
+  /*color: black;
+  background-color: white;*/
   margin: 1.5%;
 }
 
@@ -131,7 +133,7 @@ footer nav {
 }
 
 .about {
-  background-image: url("../img/background.jpg");
+  background-image: url("img/food.jpeg");
   background-size: cover;
   background-attachment: fixed;
   background-repeat: repeat;

@@ -141,6 +141,13 @@ header nav .food {
   width: 95%;
 }
 
+.cook {
+  margin-top: 2%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .name {
   display: flex;
   justify-content: center;
@@ -150,6 +157,12 @@ header nav .food {
   width: 45%;
   padding: 3%;
   border: 1px solid black;
+}
+
+.essentials {
+  display: flex;
+  justify-content: center;
+  font-style: italic;
 }
 
 footer nav .links {
