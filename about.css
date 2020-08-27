@@ -102,6 +102,12 @@ a:hover {
   border-radius: 50%;
 }
 
+.about a {
+  color: black;
+  font-size: 3rem;
+  letter-spacing: 1px;
+}
+
 h1 {
   display: flex;
   justify-content: center;
